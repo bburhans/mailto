@@ -1,0 +1,15 @@
+{
+  "name": "mailto-hack",
+  "version": "0.0.1",
+  "description": "Server that accepts mailto hyperlink parameters and redirects to the mailto protocol. This is intended as a workaround for long mailto links (HTML <a href=\"mailto:...\"> tags), which are rejected (no-op) by some browsers when used in web pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Burhans <benburhans@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
+
